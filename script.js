@@ -15,3 +15,9 @@ fahrenheit.addEventListener("input", function () {
   celsius.value = ctemp.toFixed(2);
   kelvin.value = ktemp.toFixed(2);
 });
+kelvin.addEventListener("input", function () {
+  const ctemp = parseFloat(kelvin.value) - 273.15;
+  const ftemp = ((parseFloat(kelvin.value) * 9) / 5 - 459.67).toFixed(2);
+  celsius.value = ctemp.toFixed(2);
+  fahrenheit.value = ftemp;
+});
