@@ -1,0 +1,31 @@
+* {
+  font-size: 1.2rem;
+  box-sizing: border-box;
+}
+body {
+  background: #2f2e2e;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.temps {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.temps input {
+  text-align: center;
+  width: 300px;
+  background: #2f2e2e;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
+}
